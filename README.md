@@ -1,3 +1,51 @@
+# How to Run This Project
+
+To get started with this project, follow the steps below:
+
+1. **Clone the Repository**:
+    ```sh
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Install Dependencies**:
+    Ensure you have [Node.js](https://nodejs.org/) installed. Then, run:
+    ```sh
+    npm install
+    ```
+
+3. **Set Up Environment Variables**:
+    Create a `.env` file in the root directory and add the necessary environment variables. Refer to `.env.example` for the required variables.
+
+4. **Run the Project**:
+    To start the development server, run:
+    ```sh
+    npm start
+    ```
+
+5. **Build the Project**:
+    To create a production build, run:
+    ```sh
+    npm run build
+    ```
+
+6. **Run Tests**:
+    To execute tests, run:
+    ```sh
+    npm test
+    ```
+
+7. **Lint and Format Code**:
+    To lint and format the code, run:
+    ```sh
+    npm run lint
+    npm run format
+    ```
+
+8. **Additional Scripts**:
+    Refer to the `package.json` file for additional scripts that can be used during development and deployment.
+
+By following these steps, you should be able to set up and run the project locally. If you encounter any issues, please refer to the project's documentation or reach out to the maintainers.
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MicrosoftDocs/mslearn-advanced-copilot)
 
 # Apply advanced GitHub Copilot techniques
